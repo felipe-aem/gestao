@@ -28,14 +28,14 @@ SELECT
     t.data_conclusao,
     t.concluido_por,
     -- Informações do responsável
-    u_resp.nome as responsavel_nome,
-    u_resp.email as responsavel_email,
+    u_resp_t.nome as responsavel_nome,
+    u_resp_t.email as responsavel_email,
     -- Informações do criador (quem solicitou a revisão)
-    u_criador.nome as solicitante_nome,
-    u_criador.email as solicitante_email,
+    u_criador_t.nome as solicitante_nome,
+    u_criador_t.email as solicitante_email,
     -- Informações do processo
-    proc.numero_processo,
-    cli.nome as cliente_nome,
+    proc_t.numero_processo,
+    cli_t.nome as cliente_nome,
     -- Informações do item PAI (original)
     COALESCE(t_pai.titulo, t.titulo) as titulo_original,
     t_pai.id as item_original_id,
@@ -55,10 +55,10 @@ SELECT
     END as tipo_badge
 FROM tarefas t
 LEFT JOIN tarefas t_pai ON t.parent_id = t_pai.id
-LEFT JOIN usuarios u_resp ON t.responsavel_id = u_resp.id
-LEFT JOIN usuarios u_criador ON t.criado_por = u_criador.id
-LEFT JOIN processos proc ON t.processo_id = proc.id
-LEFT JOIN clientes cli ON proc.cliente_id = cli.id
+LEFT JOIN usuarios u_resp_t ON t.responsavel_id = u_resp_t.id
+LEFT JOIN usuarios u_criador_t ON t.criado_por = u_criador_t.id
+LEFT JOIN processos proc_t ON t.processo_id = proc_t.id
+LEFT JOIN clientes cli_t ON proc_t.cliente_id = cli_t.id
 WHERE t.deleted_at IS NULL
 
 UNION ALL
@@ -81,14 +81,14 @@ SELECT
     p.data_conclusao,
     p.concluido_por,
     -- Informações do responsável
-    u_resp.nome as responsavel_nome,
-    u_resp.email as responsavel_email,
+    u_resp_p.nome as responsavel_nome,
+    u_resp_p.email as responsavel_email,
     -- Informações do criador (quem solicitou a revisão)
-    u_criador.nome as solicitante_nome,
-    u_criador.email as solicitante_email,
+    u_criador_p.nome as solicitante_nome,
+    u_criador_p.email as solicitante_email,
     -- Informações do processo
-    proc.numero_processo,
-    cli.nome as cliente_nome,
+    proc_p.numero_processo,
+    cli_p.nome as cliente_nome,
     -- Informações do item PAI (original)
     COALESCE(p_pai.titulo, p.titulo) as titulo_original,
     p_pai.id as item_original_id,
@@ -108,10 +108,10 @@ SELECT
     END as tipo_badge
 FROM prazos p
 LEFT JOIN prazos p_pai ON p.parent_id = p_pai.id
-LEFT JOIN usuarios u_resp ON p.responsavel_id = u_resp.id
-LEFT JOIN usuarios u_criador ON p.criado_por = p_criador.id
-LEFT JOIN processos proc ON p.processo_id = proc.id
-LEFT JOIN clientes cli ON proc.cliente_id = cli.id
+LEFT JOIN usuarios u_resp_p ON p.responsavel_id = u_resp_p.id
+LEFT JOIN usuarios u_criador_p ON p.criado_por = u_criador_p.id
+LEFT JOIN processos proc_p ON p.processo_id = proc_p.id
+LEFT JOIN clientes cli_p ON proc_p.cliente_id = cli_p.id
 WHERE p.deleted_at IS NULL;
 
 -- ============================================================
