@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manutenção - SIGAM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-image"></div>
+    
+    <div class="maintenance-container">
+        <div class="icon-wrapper">
+            <svg class="maintenance-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+            </svg>
+        </div>
+        
+        <h1 class="maintenance-title">Estamos em Manutenção</h1>
+        
+        <div class="content-wrapper">
+            <p class="maintenance-description">
+                Nosso site está temporariamente indisponível para melhorias e atualizações importantes.
+            </p>
+            
+            <p class="maintenance-description">
+                Estamos trabalhando para aprimorar sua experiência e oferecer serviços ainda melhores.
+            </p>
+            
+            <div class="info-box">
+                <p class="info-text">Agradecemos sua compreensão e paciência.</p>
+                <p class="department">Setor de Desenvolvimento</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2025 Alencar &amp; Martinazzo</p>
+            <p class="rights">Todos os direitos reservados</p>
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: #1a1a1a;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/assets/img/bgProfissionais.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(40%) grayscale(30%);
+    z-index: 0;
+}
+
+.maintenance-container {
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(12px);
+    border-radius: 24px;
+    padding: 60px 50px;
+    max-width: 650px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 
+        0 25px 70px rgba(0, 0, 0, 0.6),
+        0 0 0 1px rgba(255, 255, 255, 0.08);
+    position: relative;
+    z-index: 1;
+    animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.icon-wrapper {
+    margin-bottom: 30px;
+    display: inline-flex;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.maintenance-icon {
+    width: 48px;
+    height: 48px;
+    color: #ffffff;
+    animation: rotate 3s ease-in-out infinite;
+}
+
+@keyframes rotate {
+    0%, 100% { transform: rotate(0deg); }
+    50% { transform: rotate(15deg); }
+}
+
+.maintenance-title {
+    font-size: 2.75em;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #ffffff;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.content-wrapper {
+    margin-bottom: 40px;
+}
+
+.maintenance-description {
+    font-size: 1.15em;
+    line-height: 1.7;
+    color: #e5e5e5;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+.info-box {
+    margin-top: 35px;
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.info-text {
+    font-size: 1.05em;
+    color: #f0f0f0;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.department {
+    font-size: 0.95em;
+    color: #cccccc;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.footer {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.9em;
+    color: #999999;
+    line-height: 1.6;
+}
+
+.footer p {
+    margin-bottom: 4px;
+}
+
+.rights {
+    font-size: 0.85em;
+    color: #888888;
+}
+
+@media (max-width: 768px) {
+    .maintenance-container {
+        padding: 40px 30px;
+    }
+    
+    .maintenance-title {
+        font-size: 2.2em;
+    }
+    
+    .maintenance-description {
+        font-size: 1.05em;
+    }
+    
+    .icon-wrapper {
+        padding: 16px;
+    }
+    
+    .maintenance-icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .maintenance-container {
+        padding: 35px 25px;
+        border-radius: 20px;
+    }
+    
+    .maintenance-title {
+        font-size: 1.85em;
+    }
+    
+    .maintenance-description {
+        font-size: 1em;
+    }
+    
+    .info-box {
+        padding: 20px;
+    }
+}
+</style>

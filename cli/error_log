@@ -1,0 +1,452 @@
+[23-Oct-2025 16:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[23-Oct-2025 16:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[23-Oct-2025 16:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[23-Oct-2025 16:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[23-Oct-2025 20:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[23-Oct-2025 20:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[23-Oct-2025 20:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[23-Oct-2025 20:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[24-Oct-2025 00:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[24-Oct-2025 00:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[24-Oct-2025 00:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[24-Oct-2025 00:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[24-Oct-2025 04:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[24-Oct-2025 04:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[24-Oct-2025 04:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[24-Oct-2025 04:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[24-Oct-2025 08:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[24-Oct-2025 08:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[24-Oct-2025 08:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[24-Oct-2025 08:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[24-Oct-2025 12:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[24-Oct-2025 12:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[24-Oct-2025 12:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[24-Oct-2025 12:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[24-Oct-2025 16:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[24-Oct-2025 16:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[24-Oct-2025 16:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[24-Oct-2025 16:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[24-Oct-2025 20:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[24-Oct-2025 20:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[24-Oct-2025 20:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[24-Oct-2025 20:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[25-Oct-2025 00:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[25-Oct-2025 00:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[25-Oct-2025 00:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[25-Oct-2025 00:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[25-Oct-2025 04:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[25-Oct-2025 04:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[25-Oct-2025 04:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[25-Oct-2025 04:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[25-Oct-2025 08:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[25-Oct-2025 08:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[25-Oct-2025 08:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[25-Oct-2025 08:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[25-Oct-2025 12:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[25-Oct-2025 12:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[25-Oct-2025 12:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[25-Oct-2025 12:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[25-Oct-2025 16:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[25-Oct-2025 16:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[25-Oct-2025 16:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[25-Oct-2025 16:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[25-Oct-2025 20:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[25-Oct-2025 20:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[25-Oct-2025 20:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[25-Oct-2025 20:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[26-Oct-2025 00:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[26-Oct-2025 00:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[26-Oct-2025 00:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[26-Oct-2025 00:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[26-Oct-2025 04:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[26-Oct-2025 04:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[26-Oct-2025 04:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[26-Oct-2025 04:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[26-Oct-2025 08:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[26-Oct-2025 08:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[26-Oct-2025 08:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[26-Oct-2025 08:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[26-Oct-2025 12:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[26-Oct-2025 12:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[26-Oct-2025 12:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[26-Oct-2025 12:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[26-Oct-2025 16:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[26-Oct-2025 16:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[26-Oct-2025 16:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[26-Oct-2025 16:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[26-Oct-2025 20:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[26-Oct-2025 20:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[26-Oct-2025 20:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[26-Oct-2025 20:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[27-Oct-2025 00:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[27-Oct-2025 00:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[27-Oct-2025 00:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[27-Oct-2025 00:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[27-Oct-2025 04:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[27-Oct-2025 04:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[27-Oct-2025 04:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[27-Oct-2025 04:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[27-Oct-2025 08:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[27-Oct-2025 08:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[27-Oct-2025 08:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[27-Oct-2025 08:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[27-Oct-2025 12:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[27-Oct-2025 12:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[27-Oct-2025 12:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[27-Oct-2025 12:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[27-Oct-2025 16:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[27-Oct-2025 16:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[27-Oct-2025 16:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[27-Oct-2025 16:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[27-Oct-2025 20:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[27-Oct-2025 20:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[27-Oct-2025 20:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[27-Oct-2025 20:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[28-Oct-2025 00:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[28-Oct-2025 00:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[28-Oct-2025 00:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[28-Oct-2025 00:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[28-Oct-2025 04:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[28-Oct-2025 04:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[28-Oct-2025 04:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[28-Oct-2025 04:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[28-Oct-2025 08:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[28-Oct-2025 08:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[28-Oct-2025 08:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[28-Oct-2025 08:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[28-Oct-2025 12:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[28-Oct-2025 12:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[28-Oct-2025 12:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[28-Oct-2025 12:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[28-Oct-2025 20:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[28-Oct-2025 20:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[28-Oct-2025 20:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[28-Oct-2025 20:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[29-Oct-2025 00:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[29-Oct-2025 00:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[29-Oct-2025 00:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[29-Oct-2025 00:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[29-Oct-2025 04:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[29-Oct-2025 04:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[29-Oct-2025 04:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[29-Oct-2025 04:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[29-Oct-2025 08:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[29-Oct-2025 08:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[29-Oct-2025 08:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[29-Oct-2025 08:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[29-Oct-2025 12:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[29-Oct-2025 12:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[29-Oct-2025 12:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[29-Oct-2025 12:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[29-Oct-2025 16:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[29-Oct-2025 16:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[29-Oct-2025 16:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[29-Oct-2025 16:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[29-Oct-2025 20:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[29-Oct-2025 20:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[29-Oct-2025 20:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[29-Oct-2025 20:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[30-Oct-2025 00:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[30-Oct-2025 00:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[30-Oct-2025 00:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[30-Oct-2025 00:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[30-Oct-2025 04:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[30-Oct-2025 04:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[30-Oct-2025 04:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[30-Oct-2025 04:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[30-Oct-2025 08:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[30-Oct-2025 08:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[30-Oct-2025 08:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[30-Oct-2025 08:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[30-Oct-2025 12:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[30-Oct-2025 12:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[30-Oct-2025 12:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[30-Oct-2025 12:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[30-Oct-2025 16:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[30-Oct-2025 16:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[30-Oct-2025 16:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[30-Oct-2025 16:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[30-Oct-2025 20:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[30-Oct-2025 20:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[30-Oct-2025 20:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[30-Oct-2025 20:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[31-Oct-2025 00:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[31-Oct-2025 00:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[31-Oct-2025 00:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[31-Oct-2025 00:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[31-Oct-2025 04:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[31-Oct-2025 04:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[31-Oct-2025 04:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[31-Oct-2025 04:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[31-Oct-2025 08:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[31-Oct-2025 08:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[31-Oct-2025 08:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[31-Oct-2025 08:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[31-Oct-2025 12:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[31-Oct-2025 12:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[31-Oct-2025 12:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[31-Oct-2025 12:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[31-Oct-2025 16:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[31-Oct-2025 16:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[31-Oct-2025 16:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[31-Oct-2025 16:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[31-Oct-2025 20:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[31-Oct-2025 20:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[31-Oct-2025 20:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[31-Oct-2025 20:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[01-Nov-2025 00:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[01-Nov-2025 00:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[01-Nov-2025 00:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[01-Nov-2025 00:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[01-Nov-2025 04:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[01-Nov-2025 04:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[01-Nov-2025 04:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[01-Nov-2025 04:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[01-Nov-2025 08:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[01-Nov-2025 08:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[01-Nov-2025 08:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[01-Nov-2025 08:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[01-Nov-2025 12:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[01-Nov-2025 12:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[01-Nov-2025 12:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[01-Nov-2025 12:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[01-Nov-2025 16:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[01-Nov-2025 16:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[01-Nov-2025 16:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[01-Nov-2025 16:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[01-Nov-2025 20:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[01-Nov-2025 20:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[01-Nov-2025 20:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[01-Nov-2025 20:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[02-Nov-2025 00:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[02-Nov-2025 00:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[02-Nov-2025 00:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[02-Nov-2025 00:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[02-Nov-2025 04:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[02-Nov-2025 04:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[02-Nov-2025 04:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[02-Nov-2025 04:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[02-Nov-2025 08:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[02-Nov-2025 08:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[02-Nov-2025 08:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[02-Nov-2025 08:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[02-Nov-2025 12:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[02-Nov-2025 12:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[02-Nov-2025 12:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[02-Nov-2025 12:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[02-Nov-2025 16:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[02-Nov-2025 16:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[02-Nov-2025 16:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[02-Nov-2025 16:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[02-Nov-2025 20:00:03 America/Sao_Paulo] === DEBUG Auth::check() ===
+[02-Nov-2025 20:00:03 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[02-Nov-2025 20:00:03 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[02-Nov-2025 20:00:03 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[03-Nov-2025 00:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[03-Nov-2025 00:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[03-Nov-2025 00:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[03-Nov-2025 00:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[03-Nov-2025 04:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[03-Nov-2025 04:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[03-Nov-2025 04:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[03-Nov-2025 04:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[03-Nov-2025 08:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[03-Nov-2025 08:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[03-Nov-2025 08:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[03-Nov-2025 08:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[03-Nov-2025 12:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[03-Nov-2025 12:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[03-Nov-2025 12:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[03-Nov-2025 12:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[03-Nov-2025 16:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[03-Nov-2025 16:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[03-Nov-2025 16:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[03-Nov-2025 16:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[03-Nov-2025 20:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[03-Nov-2025 20:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[03-Nov-2025 20:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[03-Nov-2025 20:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[04-Nov-2025 00:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[04-Nov-2025 00:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[04-Nov-2025 00:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[04-Nov-2025 00:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[04-Nov-2025 04:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[04-Nov-2025 04:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[04-Nov-2025 04:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[04-Nov-2025 04:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[04-Nov-2025 08:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[04-Nov-2025 08:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[04-Nov-2025 08:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[04-Nov-2025 08:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[04-Nov-2025 12:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[04-Nov-2025 12:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[04-Nov-2025 12:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[04-Nov-2025 12:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[05-Nov-2025 12:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[05-Nov-2025 12:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[05-Nov-2025 12:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[05-Nov-2025 12:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[05-Nov-2025 16:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[05-Nov-2025 16:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[05-Nov-2025 16:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[05-Nov-2025 16:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[05-Nov-2025 20:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[05-Nov-2025 20:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[05-Nov-2025 20:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[05-Nov-2025 20:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[06-Nov-2025 00:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[06-Nov-2025 00:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[06-Nov-2025 00:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[06-Nov-2025 00:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[06-Nov-2025 04:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[06-Nov-2025 04:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[06-Nov-2025 04:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[06-Nov-2025 04:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[06-Nov-2025 08:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[06-Nov-2025 08:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[06-Nov-2025 08:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[06-Nov-2025 08:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[06-Nov-2025 12:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[06-Nov-2025 12:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[06-Nov-2025 12:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[06-Nov-2025 12:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[06-Nov-2025 16:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[06-Nov-2025 16:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[06-Nov-2025 16:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[06-Nov-2025 16:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[06-Nov-2025 20:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[06-Nov-2025 20:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[06-Nov-2025 20:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[06-Nov-2025 20:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[07-Nov-2025 00:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[07-Nov-2025 00:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[07-Nov-2025 00:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[07-Nov-2025 00:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[07-Nov-2025 04:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[07-Nov-2025 04:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[07-Nov-2025 04:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[07-Nov-2025 04:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[07-Nov-2025 08:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[07-Nov-2025 08:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[07-Nov-2025 08:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[07-Nov-2025 08:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[07-Nov-2025 12:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[07-Nov-2025 12:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[07-Nov-2025 12:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[07-Nov-2025 12:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[07-Nov-2025 16:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[07-Nov-2025 16:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[07-Nov-2025 16:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[07-Nov-2025 16:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[07-Nov-2025 20:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[07-Nov-2025 20:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[07-Nov-2025 20:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[07-Nov-2025 20:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[08-Nov-2025 00:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[08-Nov-2025 00:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[08-Nov-2025 00:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[08-Nov-2025 00:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[08-Nov-2025 04:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[08-Nov-2025 04:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[08-Nov-2025 04:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[08-Nov-2025 04:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[08-Nov-2025 08:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[08-Nov-2025 08:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[08-Nov-2025 08:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[08-Nov-2025 08:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[08-Nov-2025 12:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[08-Nov-2025 12:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[08-Nov-2025 12:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[08-Nov-2025 12:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[08-Nov-2025 16:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[08-Nov-2025 16:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[08-Nov-2025 16:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[08-Nov-2025 16:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[08-Nov-2025 20:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[08-Nov-2025 20:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[08-Nov-2025 20:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[08-Nov-2025 20:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[09-Nov-2025 00:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[09-Nov-2025 00:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[09-Nov-2025 00:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[09-Nov-2025 00:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[09-Nov-2025 04:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[09-Nov-2025 04:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[09-Nov-2025 04:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[09-Nov-2025 04:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[09-Nov-2025 08:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[09-Nov-2025 08:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[09-Nov-2025 08:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[09-Nov-2025 08:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[09-Nov-2025 12:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[09-Nov-2025 12:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[09-Nov-2025 12:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[09-Nov-2025 12:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[09-Nov-2025 16:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[09-Nov-2025 16:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[09-Nov-2025 16:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[09-Nov-2025 16:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[09-Nov-2025 20:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[09-Nov-2025 20:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[09-Nov-2025 20:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[09-Nov-2025 20:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[10-Nov-2025 00:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[10-Nov-2025 00:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[10-Nov-2025 00:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[10-Nov-2025 00:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[10-Nov-2025 04:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[10-Nov-2025 04:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[10-Nov-2025 04:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[10-Nov-2025 04:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[10-Nov-2025 08:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[10-Nov-2025 08:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[10-Nov-2025 08:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[10-Nov-2025 08:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[10-Nov-2025 12:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[10-Nov-2025 12:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[10-Nov-2025 12:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[10-Nov-2025 12:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[10-Nov-2025 16:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[10-Nov-2025 16:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[10-Nov-2025 16:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[10-Nov-2025 16:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[10-Nov-2025 20:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[10-Nov-2025 20:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[10-Nov-2025 20:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[10-Nov-2025 20:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[11-Nov-2025 00:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[11-Nov-2025 00:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[11-Nov-2025 00:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[11-Nov-2025 00:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[11-Nov-2025 04:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[11-Nov-2025 04:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[11-Nov-2025 04:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[11-Nov-2025 04:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[11-Nov-2025 08:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[11-Nov-2025 08:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[11-Nov-2025 08:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[11-Nov-2025 08:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[11-Nov-2025 12:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[11-Nov-2025 12:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[11-Nov-2025 12:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[11-Nov-2025 12:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[11-Nov-2025 16:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[11-Nov-2025 16:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[11-Nov-2025 16:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[11-Nov-2025 16:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[11-Nov-2025 20:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[11-Nov-2025 20:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[11-Nov-2025 20:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[11-Nov-2025 20:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[12-Nov-2025 00:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[12-Nov-2025 00:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[12-Nov-2025 00:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[12-Nov-2025 00:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[12-Nov-2025 04:00:02 America/Sao_Paulo] === DEBUG Auth::check() ===
+[12-Nov-2025 04:00:02 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[12-Nov-2025 04:00:02 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[12-Nov-2025 04:00:02 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão
+[12-Nov-2025 08:00:01 America/Sao_Paulo] === DEBUG Auth::check() ===
+[12-Nov-2025 08:00:01 America/Sao_Paulo] SESSION usuario_id: NÃO EXISTE
+[12-Nov-2025 08:00:01 America/Sao_Paulo] SESSION token: NÃO EXISTE
+[12-Nov-2025 08:00:01 America/Sao_Paulo] FALHOU: Falta usuario_id ou token na sessão

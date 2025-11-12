@@ -1,0 +1,380 @@
+-bash: *6****/usr/bin/php/www/vhosts/alencarmartinazzo.adv.br/gestao.alencarmartinazzo.adv.br/cli/process_publications.php: No such file or directory
+/usr/bin/bash: /var/www/vhosts/alencarmartinazzo.adv.br/gestao.alencarmartinazzo.adv.br/cli/process_publications.php: Permission denied
+/usr/bin/bash: /var/www/vhosts/alencarmartinazzo.adv.br/gestao.alencarmartinazzo.adv.br/cli/process_publications.php: Permission denied
+PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /var/www/vhosts/alencarmartinazzo.adv.br/gestao.alencarmartinazzo.adv.br/cli/process_publications.php on line 263
+PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /var/www/vhosts/alencarmartinazzo.adv.br/gestao.alencarmartinazzo.adv.br/cli/process_publications.php on line 263
+/usr/bin/bash: */6: No such file or directory
+PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /var/www/vhosts/alencarmartinazzo.adv.br/gestao.alencarmartinazzo.adv.br/cli/process_publications.php on line 263
+[2025-10-13 09:19:19] [INFO] Iniciando o processamento de publicações.
+[2025-10-13 09:19:19] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-13 09:19:19] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-13 09:19:19] [INFO] Buscando publicações não processadas para a data: 2025-10-13...
+[2025-10-13 09:19:19] [WARNING] Usando dados de mock para teste local.
+[2025-10-13 09:19:19] [INFO] 2 publicações encontradas. Iniciando processamento local...
+[2025-10-13 09:19:19] [WARNING] Publicação MOCK-1 não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-13 09:19:19] [INFO] Publicação MOCK-1 atualizada no banco de dados. (DB ID: 1)
+[2025-10-13 09:19:19] [WARNING] Publicação MOCK-2 não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-13 09:19:19] [INFO] Publicação MOCK-2 atualizada no banco de dados. (DB ID: 2)
+[2025-10-13 09:19:19] [INFO] Total de 2 publicações processadas e salvas/atualizadas localmente.
+[2025-10-13 09:19:19] [INFO] Marcando 2 publicações como processadas na API...
+Erro ao marcar publicações como processadas (IDs: MOCK-1,MOCK-2): Rate limit excedido: Intervalo mínimo de 300 segundos entre requisições não atingido. Por favor, aguarde aproximadamente 300 segundos antes de tentar novamente.
+[2025-10-13 09:19:19] [ERROR] Falha ao marcar publicações como processadas na API. Tente novamente manualmente ou revise o log.
+[2025-10-13 09:19:19] [INFO] Processamento de publicações concluído.
+[2025-10-13 09:59:05] [INFO] Iniciando o processamento de publicações.
+[2025-10-13 09:59:06] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-13 09:59:06] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-13 09:59:06] [INFO] Buscando publicações não processadas para a data: 2025-10-13...
+[2025-10-13 09:59:06] [WARNING] Usando dados de mock para teste local.
+[2025-10-13 09:59:06] [INFO] 2 publicações encontradas. Iniciando processamento local...
+[2025-10-13 09:59:06] [WARNING] Publicação MOCK-1 não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-13 09:59:06] [INFO] Publicação MOCK-1 atualizada no banco de dados. (DB ID: 1)
+[2025-10-13 09:59:06] [WARNING] Publicação MOCK-2 não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-13 09:59:06] [INFO] Publicação MOCK-2 atualizada no banco de dados. (DB ID: 2)
+[2025-10-13 09:59:06] [INFO] Total de 2 publicações processadas e salvas/atualizadas localmente.
+[2025-10-13 09:59:06] [INFO] Marcando 2 publicações como processadas na API...
+Erro ao marcar publicações como processadas (IDs: MOCK-1,MOCK-2): Rate limit excedido: Intervalo mínimo de 300 segundos entre requisições não atingido. Por favor, aguarde aproximadamente 300 segundos antes de tentar novamente.
+[2025-10-13 09:59:06] [ERROR] Falha ao marcar publicações como processadas na API. Tente novamente manualmente ou revise o log.
+[2025-10-13 09:59:06] [INFO] Processamento de publicações concluído.
+[2025-10-13 10:59:06] [INFO] Iniciando o processamento de publicações.
+[2025-10-13 10:59:06] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-13 10:59:06] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-13 10:59:06] [INFO] Buscando publicações não processadas para a data: 2025-10-13...
+[2025-10-13 10:59:06] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-13 10:59:06] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-13 10:59:06] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-13 11:59:02] [INFO] Iniciando o processamento de publicações.
+[2025-10-13 11:59:02] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-13 11:59:02] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-13 11:59:02] [INFO] Buscando publicações não processadas para a data: 2025-10-13...
+[2025-10-13 11:59:02] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-13 11:59:02] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-13 11:59:02] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-13 12:59:02] [INFO] Iniciando o processamento de publicações.
+[2025-10-13 12:59:02] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-13 12:59:02] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-13 12:59:02] [INFO] Buscando publicações não processadas para a data: 2025-10-13...
+[2025-10-13 12:59:02] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-13 12:59:02] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-13 12:59:02] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-13 13:59:08] [INFO] Iniciando o processamento de publicações.
+[2025-10-13 13:59:08] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-13 13:59:08] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-13 13:59:08] [INFO] Buscando publicações não processadas para a data: 2025-10-13...
+[2025-10-13 13:59:08] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-13 13:59:08] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-13 13:59:08] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-13 14:59:11] [INFO] Iniciando o processamento de publicações.
+[2025-10-13 14:59:11] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-13 14:59:11] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-13 14:59:11] [INFO] Buscando publicações não processadas para a data: 2025-10-13...
+[2025-10-13 14:59:11] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-13 14:59:11] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-13 14:59:11] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-13 15:59:04] [INFO] Iniciando o processamento de publicações.
+[2025-10-13 15:59:04] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-13 15:59:04] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-13 15:59:04] [INFO] Buscando publicações não processadas para a data: 2025-10-13...
+[2025-10-13 15:59:05] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-13 15:59:05] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-13 15:59:05] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-13 16:59:06] [INFO] Iniciando o processamento de publicações.
+[2025-10-13 16:59:06] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-13 16:59:06] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-13 16:59:06] [INFO] Buscando publicações não processadas para a data: 2025-10-13...
+[2025-10-13 16:59:07] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-13 16:59:07] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-13 16:59:07] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-13 17:59:05] [INFO] Iniciando o processamento de publicações.
+[2025-10-13 17:59:05] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-13 17:59:05] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-13 17:59:05] [INFO] Buscando publicações não processadas para a data: 2025-10-13...
+[2025-10-13 17:59:06] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-13 17:59:06] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-13 17:59:06] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-13 18:59:05] [INFO] Iniciando o processamento de publicações.
+[2025-10-13 18:59:05] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-13 18:59:05] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-13 18:59:05] [INFO] Buscando publicações não processadas para a data: 2025-10-13...
+[2025-10-13 18:59:06] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-13 18:59:06] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-13 18:59:06] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-13 19:59:01] [INFO] Iniciando o processamento de publicações.
+[2025-10-13 19:59:01] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-13 19:59:01] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-13 19:59:01] [INFO] Buscando publicações não processadas para a data: 2025-10-13...
+[2025-10-13 19:59:02] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-13 19:59:02] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-13 19:59:02] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-13 20:59:02] [INFO] Iniciando o processamento de publicações.
+[2025-10-13 20:59:02] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-13 20:59:02] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-13 20:59:02] [INFO] Buscando publicações não processadas para a data: 2025-10-13...
+[2025-10-13 20:59:02] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-13 20:59:02] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-13 20:59:02] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-13 21:59:02] [INFO] Iniciando o processamento de publicações.
+[2025-10-13 21:59:02] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-13 21:59:02] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-13 21:59:02] [INFO] Buscando publicações não processadas para a data: 2025-10-13...
+[2025-10-13 21:59:02] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-13 21:59:02] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-13 21:59:02] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-13 22:59:02] [INFO] Iniciando o processamento de publicações.
+[2025-10-13 22:59:02] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-13 22:59:02] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-13 22:59:02] [INFO] Buscando publicações não processadas para a data: 2025-10-13...
+[2025-10-13 22:59:02] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-13 22:59:02] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-13 22:59:02] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-13 23:59:01] [INFO] Iniciando o processamento de publicações.
+[2025-10-13 23:59:01] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-13 23:59:01] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-13 23:59:01] [INFO] Buscando publicações não processadas para a data: 2025-10-13...
+[2025-10-13 23:59:01] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-13 23:59:01] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-13 23:59:01] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 00:59:02] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 00:59:02] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 00:59:02] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 00:59:02] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 00:59:02] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 00:59:02] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 00:59:02] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 01:59:02] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 01:59:02] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 01:59:02] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 01:59:02] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 01:59:02] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 01:59:02] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 01:59:02] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 02:59:01] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 02:59:01] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 02:59:01] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 02:59:01] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 02:59:02] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 02:59:02] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 02:59:02] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 03:59:01] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 03:59:02] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 03:59:02] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 03:59:02] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 03:59:02] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 03:59:02] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 03:59:02] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 04:59:01] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 04:59:01] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 04:59:01] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 04:59:01] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 04:59:02] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 04:59:02] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 04:59:02] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 05:59:02] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 05:59:02] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 05:59:02] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 05:59:02] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 05:59:02] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 05:59:02] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 05:59:02] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 06:59:01] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 06:59:01] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 06:59:01] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 06:59:01] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 06:59:02] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 06:59:02] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 06:59:02] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 07:59:01] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 07:59:01] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 07:59:01] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 07:59:01] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 07:59:02] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 07:59:02] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 07:59:02] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 08:59:02] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 08:59:02] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 08:59:02] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 08:59:02] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 08:59:03] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 08:59:03] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 08:59:03] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 09:59:05] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 09:59:05] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 09:59:05] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 09:59:05] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 09:59:05] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 09:59:05] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 09:59:05] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 10:59:02] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 10:59:02] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 10:59:02] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 10:59:02] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 10:59:03] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 10:59:03] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 10:59:03] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 11:59:03] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 11:59:03] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 11:59:03] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 11:59:03] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 11:59:04] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 11:59:04] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 11:59:04] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 12:59:04] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 12:59:04] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 12:59:04] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 12:59:04] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 12:59:04] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 12:59:04] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 12:59:04] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 13:59:05] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 13:59:05] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 13:59:05] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 13:59:05] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 13:59:05] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 13:59:05] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 13:59:06] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 14:59:02] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 14:59:02] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 14:59:02] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 14:59:02] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 14:59:03] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 14:59:03] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 14:59:03] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 15:59:03] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 15:59:03] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 15:59:03] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 15:59:03] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 15:59:04] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 15:59:04] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 15:59:04] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 16:59:02] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 16:59:02] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 16:59:02] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 16:59:02] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 16:59:02] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 16:59:02] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 16:59:02] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 17:59:02] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 17:59:02] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 17:59:02] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 17:59:02] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 17:59:02] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 17:59:02] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 17:59:02] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 18:59:05] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 18:59:05] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 18:59:05] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 18:59:05] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 18:59:06] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 18:59:06] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 18:59:06] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 19:59:02] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 19:59:02] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 19:59:02] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 19:59:02] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 19:59:03] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 19:59:03] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 19:59:03] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 20:59:05] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 20:59:05] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 20:59:05] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 20:59:05] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 20:59:05] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 20:59:05] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 20:59:06] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 21:59:05] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 21:59:05] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 21:59:05] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 21:59:05] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 21:59:05] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 21:59:05] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 21:59:06] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 22:59:08] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 22:59:08] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 22:59:08] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 22:59:08] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 22:59:08] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 22:59:08] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 22:59:09] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-14 23:59:05] [INFO] Iniciando o processamento de publicações.
+[2025-10-14 23:59:05] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-14 23:59:05] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-14 23:59:05] [INFO] Buscando publicações não processadas para a data: 2025-10-14...
+[2025-10-14 23:59:06] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-14 23:59:06] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-14 23:59:06] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-15 00:59:04] [INFO] Iniciando o processamento de publicações.
+[2025-10-15 00:59:04] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-15 00:59:04] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-15 00:59:04] [INFO] Buscando publicações não processadas para a data: 2025-10-15...
+[2025-10-15 00:59:05] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-15 00:59:05] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-15 00:59:05] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-15 01:59:02] [INFO] Iniciando o processamento de publicações.
+[2025-10-15 01:59:02] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-15 01:59:02] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-15 01:59:02] [INFO] Buscando publicações não processadas para a data: 2025-10-15...
+[2025-10-15 01:59:02] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-15 01:59:02] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-15 01:59:02] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-15 02:59:03] [INFO] Iniciando o processamento de publicações.
+[2025-10-15 02:59:03] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-15 02:59:03] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-15 02:59:03] [INFO] Buscando publicações não processadas para a data: 2025-10-15...
+[2025-10-15 02:59:03] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-15 02:59:03] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-15 02:59:03] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-15 03:59:04] [INFO] Iniciando o processamento de publicações.
+[2025-10-15 03:59:04] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-15 03:59:04] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-15 03:59:04] [INFO] Buscando publicações não processadas para a data: 2025-10-15...
+[2025-10-15 03:59:05] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-15 03:59:05] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-15 03:59:05] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-15 04:59:02] [INFO] Iniciando o processamento de publicações.
+[2025-10-15 04:59:02] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-15 04:59:02] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-15 04:59:02] [INFO] Buscando publicações não processadas para a data: 2025-10-15...
+[2025-10-15 04:59:03] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-15 04:59:03] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-15 04:59:03] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-15 05:59:03] [INFO] Iniciando o processamento de publicações.
+[2025-10-15 05:59:03] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-15 05:59:03] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-15 05:59:03] [INFO] Buscando publicações não processadas para a data: 2025-10-15...
+[2025-10-15 05:59:04] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-15 05:59:04] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-15 05:59:04] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-15 06:59:03] [INFO] Iniciando o processamento de publicações.
+[2025-10-15 06:59:03] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-15 06:59:03] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-15 06:59:03] [INFO] Buscando publicações não processadas para a data: 2025-10-15...
+[2025-10-15 06:59:04] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-15 06:59:04] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-15 06:59:04] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-15 07:59:01] [INFO] Iniciando o processamento de publicações.
+[2025-10-15 07:59:01] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-15 07:59:01] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-15 07:59:01] [INFO] Buscando publicações não processadas para a data: 2025-10-15...
+[2025-10-15 07:59:02] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-15 07:59:02] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-15 07:59:02] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-15 08:59:06] [INFO] Iniciando o processamento de publicações.
+[2025-10-15 08:59:06] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-15 08:59:06] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-15 08:59:06] [INFO] Buscando publicações não processadas para a data: 2025-10-15...
+[2025-10-15 08:59:07] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-15 08:59:07] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-15 08:59:07] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-15 09:59:04] [INFO] Iniciando o processamento de publicações.
+[2025-10-15 09:59:04] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-15 09:59:04] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-15 09:59:04] [INFO] Buscando publicações não processadas para a data: 2025-10-15...
+[2025-10-15 09:59:05] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-15 09:59:05] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-15 09:59:05] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
+[2025-10-15 10:59:04] [INFO] Iniciando o processamento de publicações.
+[2025-10-15 10:59:04] [INFO] Conexão com o banco de dados estabelecida com sucesso.
+[2025-10-15 10:59:04] [INFO] Cliente da API Publicações Online instanciado.
+[2025-10-15 10:59:04] [INFO] Buscando publicações não processadas para a data: 2025-10-15...
+[2025-10-15 10:59:05] [INFO] 1 publicações encontradas. Iniciando processamento local...
+[2025-10-15 10:59:05] [WARNING] Publicação  não vinculada a processo/cliente automaticamente. Requer análise manual.
+[2025-10-15 10:59:05] [ERROR] Erro durante a execução do worker de publicações: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_ws' cannot be null
