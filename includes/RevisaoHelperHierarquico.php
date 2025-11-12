@@ -166,27 +166,29 @@ class RevisaoHelperHierarquico {
             $stmt = $pdo->prepare($sql);
             $stmt->execute([$item_revisao_id, $usuario_id]);
 
-            // Registrar no histórico do item de revisão
-            require_once __DIR__ . '/../modules/agenda/includes/HistoricoHelper.php';
-            HistoricoHelper::registrarCriacao($tipo, $item_revisao_id,
-                "Item enviado para revisão - Ciclo #{$ciclo_numero}",
-                [
+            // Registrar no histórico do item de revisão (se o helper existir)
+            if (file_exists(__DIR__ . '/../modules/agenda/includes/HistoricoHelper.php')) {
+                require_once __DIR__ . '/../modules/agenda/includes/HistoricoHelper.php';
+                HistoricoHelper::registrarCriacao($tipo, $item_revisao_id,
+                    "Item enviado para revisão - Ciclo #{$ciclo_numero}",
+                    [
+                        'revisor_nome' => $revisor_nome,
+                        'solicitante_id' => $usuario_id,
+                        'item_original_id' => $item_raiz_id,
+                        'ciclo' => $ciclo_numero,
+                        'comentario' => $comentario
+                    ]
+                );
+
+                // Registrar no histórico do item original
+                HistoricoHelper::registrar($tipo, $item_id, 'enviado_revisao', [
                     'revisor_nome' => $revisor_nome,
-                    'solicitante_id' => $usuario_id,
-                    'item_original_id' => $item_raiz_id,
+                    'revisor_id' => $revisor_id,
+                    'item_revisao_id' => $item_revisao_id,
                     'ciclo' => $ciclo_numero,
                     'comentario' => $comentario
-                ]
-            );
-
-            // Registrar no histórico do item original
-            HistoricoHelper::registrar($tipo, $item_id, 'enviado_revisao', [
-                'revisor_nome' => $revisor_nome,
-                'revisor_id' => $revisor_id,
-                'item_revisao_id' => $item_revisao_id,
-                'ciclo' => $ciclo_numero,
-                'comentario' => $comentario
-            ]);
+                ]);
+            }
 
             // Marcar item original como "em_revisao"
             $sql = "UPDATE {$tabela} SET status = 'em_revisao' WHERE id = ?";
@@ -364,25 +366,27 @@ class RevisaoHelperHierarquico {
                 $stmt->execute([$item_protocolo_id, $revisor_id, $item_original_id]);
             }
 
-            // Registrar no histórico
-            require_once __DIR__ . '/../modules/agenda/includes/HistoricoHelper.php';
-            HistoricoHelper::registrarCriacao($tipo, $item_protocolo_id,
-                "Pronto para protocolo - Revisão aceita",
-                [
-                    'revisor_nome' => self::getNomeUsuario($revisor_id),
-                    'solicitante_nome' => $solicitante_nome,
-                    'item_revisao_id' => $item_revisao_id,
-                    'item_original_id' => $item_original_id,
-                    'ciclo' => $item_revisao['revisao_ciclo'],
-                    'comentario' => $comentario
-                ]
-            );
+            // Registrar no histórico (se o helper existir)
+            if (file_exists(__DIR__ . '/../modules/agenda/includes/HistoricoHelper.php')) {
+                require_once __DIR__ . '/../modules/agenda/includes/HistoricoHelper.php';
+                HistoricoHelper::registrarCriacao($tipo, $item_protocolo_id,
+                    "Pronto para protocolo - Revisão aceita",
+                    [
+                        'revisor_nome' => self::getNomeUsuario($revisor_id),
+                        'solicitante_nome' => $solicitante_nome,
+                        'item_revisao_id' => $item_revisao_id,
+                        'item_original_id' => $item_original_id,
+                        'ciclo' => $item_revisao['revisao_ciclo'],
+                        'comentario' => $comentario
+                    ]
+                );
 
-            HistoricoHelper::registrar($tipo, $item_revisao_id, 'revisao_aceita', [
-                'revisor_id' => $revisor_id,
-                'item_protocolo_id' => $item_protocolo_id,
-                'comentario' => $comentario
-            ]);
+                HistoricoHelper::registrar($tipo, $item_revisao_id, 'revisao_aceita', [
+                    'revisor_id' => $revisor_id,
+                    'item_protocolo_id' => $item_protocolo_id,
+                    'comentario' => $comentario
+                ]);
+            }
 
             // Marcar original como aguardando_protocolo
             $sql = "UPDATE {$tabela} SET status = 'aguardando_protocolo' WHERE id = ?";
@@ -558,24 +562,26 @@ class RevisaoHelperHierarquico {
             $stmt = $pdo->prepare($sql);
             $stmt->execute([$item_correcao_id, $revisor_id]);
 
-            // Registrar no histórico
-            require_once __DIR__ . '/../modules/agenda/includes/HistoricoHelper.php';
-            HistoricoHelper::registrarCriacao($tipo, $item_correcao_id,
-                "Correção necessária - Revisão recusada",
-                [
-                    'revisor_nome' => self::getNomeUsuario($revisor_id),
-                    'item_revisao_id' => $item_revisao_id,
-                    'item_original_id' => $item_original_id,
-                    'ciclo' => $item_revisao['revisao_ciclo'],
-                    'observacao' => $observacao
-                ]
-            );
+            // Registrar no histórico (se o helper existir)
+            if (file_exists(__DIR__ . '/../modules/agenda/includes/HistoricoHelper.php')) {
+                require_once __DIR__ . '/../modules/agenda/includes/HistoricoHelper.php';
+                HistoricoHelper::registrarCriacao($tipo, $item_correcao_id,
+                    "Correção necessária - Revisão recusada",
+                    [
+                        'revisor_nome' => self::getNomeUsuario($revisor_id),
+                        'item_revisao_id' => $item_revisao_id,
+                        'item_original_id' => $item_original_id,
+                        'ciclo' => $item_revisao['revisao_ciclo'],
+                        'observacao' => $observacao
+                    ]
+                );
 
-            HistoricoHelper::registrar($tipo, $item_revisao_id, 'revisao_recusada', [
-                'revisor_id' => $revisor_id,
-                'item_correcao_id' => $item_correcao_id,
-                'observacao' => $observacao
-            ]);
+                HistoricoHelper::registrar($tipo, $item_revisao_id, 'revisao_recusada', [
+                    'revisor_id' => $revisor_id,
+                    'item_correcao_id' => $item_correcao_id,
+                    'observacao' => $observacao
+                ]);
+            }
 
             // Marcar original como em_correcao
             $sql = "UPDATE {$tabela} SET status = 'em_correcao' WHERE id = ?";
