@@ -1,0 +1,36 @@
+[05-Nov-2025 14:17:37 America/Sao_Paulo] === DEBUG Auth::check() ===
+[05-Nov-2025 14:17:37 America/Sao_Paulo] SESSION usuario_id: 28
+[05-Nov-2025 14:17:37 America/Sao_Paulo] SESSION token: 85a5330c28ef8313ab7f618bca6a7b7c9b948fbce449a8e261df4e20b2f5a7e3
+[05-Nov-2025 14:17:37 America/Sao_Paulo] SQL: SELECT * FROM sessoes WHERE token = ? AND usuario_id = ?
+[05-Nov-2025 14:17:37 America/Sao_Paulo] Params: token=85a5330c28ef8313ab7f618bca6a7b7c9b948fbce449a8e261df4e20b2f5a7e3, usuario_id=28
+[05-Nov-2025 14:17:37 America/Sao_Paulo] Sessão encontrada no banco: SIM
+[05-Nov-2025 14:17:37 America/Sao_Paulo] Última atividade: 2025-11-05 14:17:18
+[05-Nov-2025 14:17:37 America/Sao_Paulo] Tempo desde última atividade: 19 segundos (timeout: 3600)
+[05-Nov-2025 14:17:37 America/Sao_Paulo] ✅ Auth::check() PASSOU
+[05-Nov-2025 14:17:37 America/Sao_Paulo] === DEBUG Auth::check() ===
+[05-Nov-2025 14:17:37 America/Sao_Paulo] SESSION usuario_id: 28
+[05-Nov-2025 14:17:37 America/Sao_Paulo] SESSION token: 85a5330c28ef8313ab7f618bca6a7b7c9b948fbce449a8e261df4e20b2f5a7e3
+[05-Nov-2025 14:17:37 America/Sao_Paulo] SQL: SELECT * FROM sessoes WHERE token = ? AND usuario_id = ?
+[05-Nov-2025 14:17:37 America/Sao_Paulo] Params: token=85a5330c28ef8313ab7f618bca6a7b7c9b948fbce449a8e261df4e20b2f5a7e3, usuario_id=28
+[05-Nov-2025 14:17:37 America/Sao_Paulo] Sessão encontrada no banco: SIM
+[05-Nov-2025 14:17:37 America/Sao_Paulo] Última atividade: 2025-11-05 14:17:37
+[05-Nov-2025 14:17:37 America/Sao_Paulo] Tempo desde última atividade: 0 segundos (timeout: 3600)
+[05-Nov-2025 14:17:37 America/Sao_Paulo] ✅ Auth::check() PASSOU
+[05-Nov-2025 14:17:37 America/Sao_Paulo] === DEBUG Auth::check() ===
+[05-Nov-2025 14:17:37 America/Sao_Paulo] SESSION usuario_id: 28
+[05-Nov-2025 14:17:37 America/Sao_Paulo] SESSION token: 85a5330c28ef8313ab7f618bca6a7b7c9b948fbce449a8e261df4e20b2f5a7e3
+[05-Nov-2025 14:17:37 America/Sao_Paulo] SQL: SELECT * FROM sessoes WHERE token = ? AND usuario_id = ?
+[05-Nov-2025 14:17:37 America/Sao_Paulo] Params: token=85a5330c28ef8313ab7f618bca6a7b7c9b948fbce449a8e261df4e20b2f5a7e3, usuario_id=28
+[05-Nov-2025 14:17:37 America/Sao_Paulo] Sessão encontrada no banco: SIM
+[05-Nov-2025 14:17:37 America/Sao_Paulo] Última atividade: 2025-11-05 14:17:37
+[05-Nov-2025 14:17:37 America/Sao_Paulo] Tempo desde última atividade: 0 segundos (timeout: 3600)
+[05-Nov-2025 14:17:37 America/Sao_Paulo] ✅ Auth::check() PASSOU
+[05-Nov-2025 14:17:37 America/Sao_Paulo] === DEBUG Auth::check() ===
+[05-Nov-2025 14:17:37 America/Sao_Paulo] SESSION usuario_id: 28
+[05-Nov-2025 14:17:37 America/Sao_Paulo] SESSION token: 85a5330c28ef8313ab7f618bca6a7b7c9b948fbce449a8e261df4e20b2f5a7e3
+[05-Nov-2025 14:17:37 America/Sao_Paulo] SQL: SELECT * FROM sessoes WHERE token = ? AND usuario_id = ?
+[05-Nov-2025 14:17:37 America/Sao_Paulo] Params: token=85a5330c28ef8313ab7f618bca6a7b7c9b948fbce449a8e261df4e20b2f5a7e3, usuario_id=28
+[05-Nov-2025 14:17:37 America/Sao_Paulo] Sessão encontrada no banco: SIM
+[05-Nov-2025 14:17:37 America/Sao_Paulo] Última atividade: 2025-11-05 14:17:37
+[05-Nov-2025 14:17:37 America/Sao_Paulo] Tempo desde última atividade: 0 segundos (timeout: 3600)
+[05-Nov-2025 14:17:37 America/Sao_Paulo] ✅ Auth::check() PASSOU
